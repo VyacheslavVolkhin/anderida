@@ -2503,6 +2503,10 @@ body {
             }
         }
         .wrap01:first-child {
+            z-index: 6;
+            &+.wrap01 {
+                z-index: 5;
+            }
             .item-tile-tarif {
                 z-index: 2;
                 .tile-header-wrap {
@@ -2766,6 +2770,9 @@ body {
                 }
                 &+.wrap01 {
                     padding-right: 10px;
+                    .item-tile-tarif:before {
+                        display: none;
+                    }
                 }
             }
         }
@@ -2784,6 +2791,16 @@ body {
                         opacity: 0;
                         pointer-events: none;
                     }
+                    &:before {
+                        display: none;
+                    }
+                }
+            }
+        }
+        .wrap02, .wrap04 {
+            .item-tile-tarif {
+                &:before {
+                    display: none;
                 }
             }
         }

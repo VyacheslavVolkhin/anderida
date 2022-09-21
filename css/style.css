@@ -2695,6 +2695,12 @@ body.page-light {
     opacity: 0;
     pointer-events: none;
   }
+  .inner-tarif-box .wrap01:first-child {
+    z-index: 6;
+  }
+  .inner-tarif-box .wrap01:first-child + .wrap01 {
+    z-index: 5;
+  }
   .inner-tarif-box .wrap01:first-child .item-tile-tarif {
     z-index: 2;
   }
@@ -2961,6 +2967,9 @@ body.page-light {
   .inner-tarif-box .wrap01 + .wrap01 + .wrap01 {
     padding-right: 10px;
   }
+  .inner-tarif-box .wrap01 + .wrap01 + .wrap01 .item-tile-tarif:before {
+    display: none;
+  }
   .inner-tarif-box .wrap03 {
     padding-right: 0;
   }
@@ -2974,6 +2983,13 @@ body.page-light {
   .inner-tarif-box .wrap03 + .wrap03 .item-tile-tarif .tile-header-wrap {
     opacity: 0;
     pointer-events: none;
+  }
+  .inner-tarif-box .wrap03 + .wrap03 .item-tile-tarif:before {
+    display: none;
+  }
+  .inner-tarif-box .wrap02 .item-tile-tarif:before,
+  .inner-tarif-box .wrap04 .item-tile-tarif:before {
+    display: none;
   }
   .inner-tarif-box .wrap04 {
     padding-right: 0;
