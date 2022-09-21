@@ -1,9 +1,9 @@
-<svg width="61" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="60" height="60" viewBox="0 0 61 60" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="5.5" y="1" width="50" height="50" rx="25" fill="#D6B556"/>
 <g filter="url(#filter0_d_119_5670)">
 <rect x="10.5" y="6" width="40" height="40" rx="20" fill="white" shape-rendering="crispEdges"/>
 <path d="M39 25.134C39.6667 25.5189 39.6667 26.4811 39 26.866L27 33.7942C26.3333 34.1791 25.5 33.698 25.5 32.9282L25.5 19.0718C25.5 18.302 26.3333 17.8209 27 18.2058L39 25.134Z" fill="#0C314B"/>
-<rect x="11.5" y="7" width="38" height="38" rx="19" stroke="#0C314B" stroke-width="2" shape-rendering="crispEdges"/>
+<rect x="11.5" y="7" width="38" height="38" rx="19" stroke="#0C314B" stroke-width="2" shape-rendering=""/>
 </g>
 <defs>
 <filter id="filter0_d_119_5670" x="0.5" y="0" width="60" height="60" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
